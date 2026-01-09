@@ -10,7 +10,7 @@ const generateRouter = require('./route/generate.route')
 connectDB();
 
 app.use(cors({
-    origin: ['http://localhost:5173', 'https://code-sage-frontend-two.vercel.app/'],
+    origin: ['http://localhost:5173', 'https://code-sage-frontend-two.vercel.app'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
 }));
